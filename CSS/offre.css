@@ -1,0 +1,35 @@
+/*Offre section*/
+.offre-content{
+    overflow: hidden;
+}
+.offre-item{
+    width: 30%;
+    float: left;
+    
+    border: 1px solid #e8e8e8;
+    padding: 30px 15px 30px 70px;
+    position: relative;
+}
+.offre-item.mg{
+    margin: 0 5%;
+}
+.offre-item .icon{
+    position: absolute;
+    left: 15px;
+    top: 35px;
+    color: var(--maincolor);
+}
+.offre-item-title{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    transition: color 0.5s;
+}
+.offre-item-desc{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color:  var(--graycolor);
+}
+.offre-item:hover .offre-item-title{
+    color: var(--whitecolor);
+}
